@@ -1,0 +1,18 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "job_number": { "type": "string" },
+      "invoice_number": { "type": "string" },
+      "date": { "type": "string", "format": "date" },
+      "type": { "type": "string" },
+      "invoice_amount": { "type": "number" },
+      "payment_amount": { "type": "number" },
+      "running_balance": { "type": "number" },
+      "payment_type": { "type": "string" },
+      "payment_ref": { "type": "string" }
+    },
+    "required": ["job_number", "invoice_number", "date", "type"]
+  }
+}
