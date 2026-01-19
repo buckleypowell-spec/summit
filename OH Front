@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Summit Industrial Flooring Postcard Front</title>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+  <style>
+    body { margin:0; padding:0; font-family: Arial, Helvetica, sans-serif; color: #333333; background:#fff; }
+    .postcard {
+      width: 6in;
+      height: 4in;
+      box-sizing: border-box;
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(to bottom, #f9f9f9, #ededed);
+    }
+   
+    .logo-container {
+      text-align: center;
+      padding: 12px 0 8px;
+      background: #ffffff;
+      border-bottom: 3px solid #BA4732;
+    }
+    .logo { max-width: 160px; height: auto; display: block; margin: 0 auto; }
+   
+    h1 {
+      margin: 0;
+      font-family: 'Manrope', sans-serif; /* Modern, geometric sans-serif like NB Architekt */
+      font-weight: 800; /* ExtraBold for strong headline impact */
+      color: white;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+      font-size: 2.05em;
+      line-height: 1.05;
+      letter-spacing: 0.5px; /* Subtle spacing for industrial/technical feel */
+      text-transform: uppercase;
+    }
+   
+    .cta-box {
+      background: #BA4732;
+      color: white;
+      padding: 14px;
+      text-align: center;
+      border-radius: 8px;
+      max-width: 440px;
+      margin: 0 auto;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+   
+    .split-image {
+      display: flex;
+      height: 230px;
+      margin: 8px 0;
+      border-top: 4px solid #BA4732;
+      border-bottom: 4px solid #BA4732;
+    }
+    .split-left, .split-right { flex: 1; background-size: cover; background-position: center; }
+    .split-divider { width: 6px; background: #BA4732; }
+   
+    .hero-text {
+      position: absolute;
+      top: 38%;
+      left: 0; right: 0;
+      text-align: center;
+      padding: 0 24px;
+    }
+    .hero-sub {
+      font-size: 1.2em;
+      color: white;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+      margin-top: 12px;
+    }
+   
+    .bottom-cta {
+      position: absolute;
+      bottom: 50px;
+      left: 0; right: 0;
+      text-align: center;
+    }
+   
+    .footer {
+      font-size: 0.78em;
+      color: #555;
+      text-align: center;
+      position: absolute;
+      bottom: 10px;
+      left: 0; right: 0;
+    }
+  </style>
+</head>
+<body>
+<!-- FRONT SIDE – LANDSCAPE 6x4" (Hero headline now in Manrope ExtraBold) -->
+<div class="postcard">
+  <div class="logo-container">
+    <img src="https://github.com/buckleypowell-spec/summit/blob/main/SIF%202C.png?raw=true" alt="Summit Industrial Flooring Logo" class="logo">
+  </div>
+ 
+  <div class="split-image">
+    <!-- Left: Before/damaged concrete -->
+    <div class="split-left" style="background-image: url('https://sumind.com/wp-content/uploads/2025/10/summit_Surface-Preparation_08.jpg');"></div>
+   
+    <div class="split-divider"></div>
+   
+    <!-- Right: High-reflectivity GENCA polished floor -->
+    <div class="split-right" style="background-image: url('https://sumind.com/wp-content/uploads/2025/09/GENCAsheville-NC.jpg');"></div>
+  </div>
+ 
+  <div class="hero-text">
+    <h1>Floors degrade slowly.<br>Incidents happen suddenly.</h1>
+    <p class="hero-sub">.</p>
+  </div>
+ 
+  <div class="bottom-cta">
+    <div class="cta-box">
+     
+      Schedule a quick site walkthrough<br>
+      Call <strong>(937) 800-4601</strong> Today
+    </div>
+  </div>
+ 
+  <div class="footer">
+    Summit Industrial Flooring // Improving where you stand since 1990 // sumind.com
+  </div>
+</div>
+</body>
+</html>
